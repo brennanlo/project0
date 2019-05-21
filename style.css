@@ -1,0 +1,80 @@
+html, body{
+    height:100%;
+    width: 100%;
+}
+#overlay{
+    background: url(https://wallpaperaccess.com/full/106815.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.navbar{
+    padding: 1rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.navbar-brand{
+    font-size: 1.2rem;
+}
+.nav-item{
+    padding-right: 1.2rem;
+}
+.img-fluid{
+    width:100%;
+    padding:5%;
+}
+.my-flex-container{
+    padding: 15rem;
+}
+.jumbotron h1{
+    font-size:1000%;
+}
+.title h1{
+    font-size: 1000%;
+}
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.fa-code{
+    color: #5f5f70
+}
+.fa-file-code{
+    color: #2049ff
+}
+.fa-bootstrap{
+    color: #7b3ae4
+}
+.fa-code, .fa-file-code, .fa-bootstrap{
+    font-size: 4em;
+    margin: 1rem;
+}
+.padding{
+    padding-bottom: 2rem;
+}
+.social a{
+    font-size: 4.5em; 
+    padding: 3rem;
+}
+.fa-instagram{
+    color: #ce3e9e;
+}
+.fa-linkedin{
+    color: #206eff
+}
+.fa-github-square{
+    color: #403f42
+}
+.fa-instagram:hover, .fa-linkedin:hover, .fa-github-square:hover{
+    color: #d5d5d5
+}
