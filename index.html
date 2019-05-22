@@ -13,7 +13,7 @@
   </head>
   <body>
     <div id="overlay">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">brennan.</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -22,27 +22,34 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="home.html">home<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#overlay">home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">about</a>
+                  <a class="nav-link" href="#about">about</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="projects.html">projects</a>
+                    <a class="nav-link" href="#bio">bio</a>
                   </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href=#project>project</a>
+                    </li>  
           </nav>
           <!--some typewriter offwhite script thing-->
+          <div class="container">
           <div id="typewriter"></div>
-
-          <div id="app"></div>
+          </div>
     </div>
     <!--About me section-->
-    <div class="jumbotron jumbotron-fluid">
+    <div id="about" class="jumbotron jumbotron-fluid">
         <div class="container-fluid padding">
         <div class="row padding">
           <div class="col-md-12 col-lg-6">
           <h1 class="display-4">Hello.</h1>
-          <p class="lead">basic</p>
+          <p class="lead">My name is Brennan.</p>
+          <p class="lead">I'm a second year student at the University of Waterloo.</p>
+          <p class="lead">This was a project that I built to expand my knowledge of coding.</p>
+          <h6 class="lead">(it was also just for fun!)</h6>
+        <hr> 
           </div>
           <div class="col-lg-6">
               <img src="picture.png" class="img-fluid">
@@ -53,13 +60,34 @@
     <!--hmmm-->  
     <div class="container-fluid padding">
     <div class="row padding">
-      <div class="col-md-12 col-lg-6">
+      <div class="col-md-12 col-lg-4">
         <div class="title">
-          <h1 class="display-4">bio</h1>
+          <h1 id="bio" class="display-4">bio</h1>
         </div>
-        <p>My name is Brennan.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium tempor feugiat. Quisque vehicula tristique elit, ut commodo diam euismod eget. Mauris porttitor neque ut nibh elementum, vel ultricies est dictum. Ut facilisis diam vitae dolor vulputate scelerisque. Etiam mollis nulla massa, et fermentum tortor mollis in. Ut facilisis neque at bibendum imperdiet. Duis euismod dignissim mi eu imperdiet. Ut non dignissim tellus. Morbi elit nisl, ornare ac turpis vel, suscipit fermentum eros. Suspendisse fringilla accumsan ultricies. Sed imperdiet, massa non iaculis pellentesque, neque neque hendrerit ante, ut malesuada enim magna non purus. Cras ornare, arcu vel rutrum placerat, velit turpis auctor ipsum, non blandit urna ipsum vel turpis. Maecenas egestas malesuada ante, vel egestas ligula pellentesque id. Phasellus risus mauris, scelerisque at feugiat quis, dictum sed eros. Nunc dictum suscipit odio, vitae porta odio mollis nec.</p>
-
+        <p><strong>Dear readers,</strong></p>
+        <p>I've always verbalized my thoughts, so writing things down is pretty new to me. But, i've always wanted to write, so here it goes.</p>
+        <p>For starters, I'm <strong>19 years old</strong>, which kind of freaks me out. It's exciting, yet at the same time scary; I get to experience new responsibilities, form new relationships, and leave behind old things.</p>
+        <br>  
+        <br> 
+        <br> 
+        <br> 
+        <br> 
+        <br> 
+        <br> 
+        <br>  
+        <br> 
+        <br> 
+        <br> 
+        <br> 
+        <br> 
+        <br> 
+        <br>  
+        <br> 
+        <br> 
+        <br> 
+        <br> 
+        <br> 
+        <br> 
       </div>
       <div class="col-lg-6">
         
@@ -67,7 +95,7 @@
     </div>
     </div>
     <!--project explanation-->
-    <div class="container-fluid padding">
+    <div id="project" class="container-fluid padding">
     <div class="row welcome text-center">
       <div class="col-12">
         <h1 class="display-4">The Project</h1>
@@ -114,13 +142,18 @@
 
     <!-- Optional JavaScript -->
 
+    <!--typewriter script for home overlay-->
     <script src='./typewriterjs-master/dist/core.js'></script>
     <script type="text/javascript">
       const instance = new Typewriter('#typewriter', {
-        strings: ['Hello', 'Brennan'],
+        strings: ['Welcome', ':D'],
         autoStart: true,
         loop: true,
       });
+    </script>
+    <!--Transparent to solid nav-->
+    <script>
+      
     </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

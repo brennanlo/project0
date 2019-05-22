@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 html, body{
     height:100%;
     width: 100%;
@@ -22,6 +25,16 @@ html, body{
 .nav-item{
     padding-right: 1.2rem;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+#typewriter{
+    font-size: 3rem;
+    font-weight: 200;
+}
 .img-fluid{
     width:100%;
     padding:5%;
@@ -31,9 +44,20 @@ html, body{
 }
 .jumbotron h1{
     font-size:1000%;
+    padding-bottom: 1rem;
+}
+.jumbotron h6{
+    font-size: 80%;
+}
+.jumbotron h6:hover{
+    color: #b4115d;
 }
 .title h1{
     font-size: 1000%;
+}
+/*this is to fix spacing issue when clicking bio on nav bar*/
+.title #bio{
+    padding-top: 3rem;
 }
 .welcome{
     width: 75%;
@@ -64,7 +88,7 @@ html, body{
 }
 .social a{
     font-size: 4.5em; 
-    padding: 3rem;
+    margin:rem;
 }
 .fa-instagram{
     color: #ce3e9e;
