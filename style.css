@@ -59,6 +59,10 @@ html, body{
 .title #bio{
     padding-top: 3rem;
 }
+.bioparagraph p{
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 0.8em;
+}
 .welcome{
     width: 75%;
     margin: 0 auto;
@@ -87,8 +91,8 @@ html, body{
     padding-bottom: 2rem;
 }
 .social a{
-    font-size: 4.5em; 
-    margin:rem;
+    font-size: 2em; 
+    margin:1rem;
 }
 .fa-instagram{
     color: #ce3e9e;
