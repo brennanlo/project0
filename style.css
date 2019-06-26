@@ -6,8 +6,8 @@ html, body{
     width: 100%;
 }
 #overlay{
-    background: url(https://wallpaperaccess.com/full/106815.jpg) no-repeat center center fixed;
-    display: table;
+    background: url(bgpic1.jpg) no-repeat fixed;
+    display: block;
     height: 100%;
     position: relative;
     width: 100%;
@@ -24,6 +24,9 @@ html, body{
 }
 .nav-item{
     padding-right: 1.2rem;
+}
+.bg-light{
+    background: transparent !important;
 }
 .container{
     display: flex;

@@ -14,8 +14,8 @@
   </head>
   <body>
     <div id="overlay">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">brennan.</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <a class="navbar-brand" href="#">b</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,7 +35,7 @@
                       <a class="nav-link" href=#project>project</a>
                     </li>  
           </nav>
-          <!--some typewriter offwhite script thing-->
+          <!--some typewriter-->
           <div class="container">
           <div id="typewriter"></div>
           </div>
@@ -137,20 +137,33 @@
     
 
     <!-- Optional JavaScript -->
+    <script>
+      window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("nav").style.padding = "30px 10px";
+    document.getElementById("navbar-brand").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("navbar-brand").style.fontSize = "35px";
+  }
+}
+    </script>
     <!--typewriter script for home overlay-->
     <script src='./typewriterjs-master/dist/core.js'></script>
     <script type="text/javascript">
       const instance = new Typewriter('#typewriter', {
-        strings: ['Welcome', ':D'],
+        strings: ['Welcome', ':)'],
         autoStart: true,
         loop: true,
       });
     </script>
     <!--Transparent to solid nav-->
     <script>
-      
+
     </script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
